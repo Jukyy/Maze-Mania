@@ -1,216 +1,218 @@
 0,0,0,0
 x = 0 y = 0 template_index = 0 template_rotaton = 0
-1,0,6,90
-x = 1 y = 0 template_index = 6 template_rotaton = 90
-2,0,7,180
-x = 2 y = 0 template_index = 7 template_rotaton = 180
-1,-1,6,0
-x = 1 y = -1 template_index = 6 template_rotaton = 0
-2,1,7,0
-x = 2 y = 1 template_index = 7 template_rotaton = 0
-2,-1,7,90
-x = 2 y = -1 template_index = 7 template_rotaton = 90
-1,-2,6,180
-x = 1 y = -2 template_index = 6 template_rotaton = 180
-3,1,7,180
-x = 3 y = 1 template_index = 7 template_rotaton = 180
-2,-2,4,270
-x = 2 y = -2 template_index = 4 template_rotaton = 270
-1,-3,6,0
-x = 1 y = -3 template_index = 6 template_rotaton = 0
+1,0,8,0
+x = 1 y = 0 template_index = 8 template_rotaton = 0
+1,1,6,0
+x = 1 y = 1 template_index = 6 template_rotaton = 0
+2,0,6,180
+x = 2 y = 0 template_index = 6 template_rotaton = 180
+1,-1,6,180
+x = 1 y = -1 template_index = 6 template_rotaton = 180
+1,2,7,0
+x = 1 y = 2 template_index = 7 template_rotaton = 0
+2,1,7,90
+x = 2 y = 1 template_index = 7 template_rotaton = 90
+2,-1,5,0
+x = 2 y = -1 template_index = 5 template_rotaton = 0
+1,-2,8,0
+x = 1 y = -2 template_index = 8 template_rotaton = 0
+0,-1,4,0
+x = 0 y = -1 template_index = 4 template_rotaton = 0
+2,2,7,180
+x = 2 y = 2 template_index = 7 template_rotaton = 180
+2,-2,8,0
+x = 2 y = -2 template_index = 8 template_rotaton = 0
+1,-3,6,180
+x = 1 y = -3 template_index = 6 template_rotaton = 180
 0,-2,7,0
 x = 0 y = -2 template_index = 7 template_rotaton = 0
-3,2,7,0
-x = 3 y = 2 template_index = 7 template_rotaton = 0
-2,-3,6,90
-x = 2 y = -3 template_index = 6 template_rotaton = 90
-1,-4,6,0
-x = 1 y = -4 template_index = 6 template_rotaton = 0
-0,-3,6,180
-x = 0 y = -3 template_index = 6 template_rotaton = 180
-4,2,5,90
-x = 4 y = 2 template_index = 5 template_rotaton = 90
-3,-3,7,90
-x = 3 y = -3 template_index = 7 template_rotaton = 90
-2,-4,7,180
-x = 2 y = -4 template_index = 7 template_rotaton = 180
-1,-5,5,0,1
-x = 1 y = -5 template_index = 5 template_rotaton = 0 KEY
-0,-4,7,180
-x = 0 y = -4 template_index = 7 template_rotaton = 180
--1,-3,8,0
-x = -1 y = -3 template_index = 8 template_rotaton = 0
-5,2,5,90
-x = 5 y = 2 template_index = 5 template_rotaton = 90
-3,-4,7,270
-x = 3 y = -4 template_index = 7 template_rotaton = 270
-1,-6,8,0
-x = 1 y = -6 template_index = 8 template_rotaton = 0
--1,-4,8,0
-x = -1 y = -4 template_index = 8 template_rotaton = 0
--1,-2,6,180
-x = -1 y = -2 template_index = 6 template_rotaton = 180
--2,-3,6,0
-x = -2 y = -3 template_index = 6 template_rotaton = 0
-6,2,4,180
-x = 6 y = 2 template_index = 4 template_rotaton = 180
-4,-4,7,180
-x = 4 y = -4 template_index = 7 template_rotaton = 180
-2,-6,5,90
-x = 2 y = -6 template_index = 5 template_rotaton = 90
-1,-7,7,180
-x = 1 y = -7 template_index = 7 template_rotaton = 180
-0,-6,8,0
-x = 0 y = -6 template_index = 8 template_rotaton = 0
--1,-5,6,180
-x = -1 y = -5 template_index = 6 template_rotaton = 180
--2,-4,6,0
-x = -2 y = -4 template_index = 6 template_rotaton = 0
--1,-1,8,0
-x = -1 y = -1 template_index = 8 template_rotaton = 0
--2,-2,8,0
-x = -2 y = -2 template_index = 8 template_rotaton = 0
-4,-3,5,0
-x = 4 y = -3 template_index = 5 template_rotaton = 0
-3,-6,8,0
-x = 3 y = -6 template_index = 8 template_rotaton = 0
-0,-7,7,270
-x = 0 y = -7 template_index = 7 template_rotaton = 270
-0,-5,4,90
-x = 0 y = -5 template_index = 4 template_rotaton = 90
--1,-6,6,270
-x = -1 y = -6 template_index = 6 template_rotaton = 270
--2,-5,8,0
-x = -2 y = -5 template_index = 8 template_rotaton = 0
--1,0,5,0
-x = -1 y = 0 template_index = 5 template_rotaton = 0
-0,-1,4,180
-x = 0 y = -1 template_index = 4 template_rotaton = 180
--2,-1,6,90
-x = -2 y = -1 template_index = 6 template_rotaton = 90
--3,-2,7,0
-x = -3 y = -2 template_index = 7 template_rotaton = 0
-4,-2,7,90
-x = 4 y = -2 template_index = 7 template_rotaton = 90
-3,-5,6,90
-x = 3 y = -5 template_index = 6 template_rotaton = 90
-4,-6,6,270
-x = 4 y = -6 template_index = 6 template_rotaton = 270
-3,-7,5,0
-x = 3 y = -7 template_index = 5 template_rotaton = 0
--2,-6,8,0
-x = -2 y = -6 template_index = 8 template_rotaton = 0
--3,-5,6,270
-x = -3 y = -5 template_index = 6 template_rotaton = 270
--1,1,6,90
-x = -1 y = 1 template_index = 6 template_rotaton = 90
--3,-1,5,90
-x = -3 y = -1 template_index = 5 template_rotaton = 90
--3,-3,6,180
-x = -3 y = -3 template_index = 6 template_rotaton = 180
-3,-2,7,270
-x = 3 y = -2 template_index = 7 template_rotaton = 270
-4,-5,6,90
-x = 4 y = -5 template_index = 6 template_rotaton = 90
-2,-5,4,0
-x = 2 y = -5 template_index = 4 template_rotaton = 0
-5,-6,8,0
-x = 5 y = -6 template_index = 8 template_rotaton = 0
-3,-8,7,270
-x = 3 y = -8 template_index = 7 template_rotaton = 270
--2,-7,7,180
-x = -2 y = -7 template_index = 7 template_rotaton = 180
--3,-6,7,0
-x = -3 y = -6 template_index = 7 template_rotaton = 0
--3,-4,6,180
-x = -3 y = -4 template_index = 6 template_rotaton = 180
--4,-5,7,270
-x = -4 y = -5 template_index = 7 template_rotaton = 270
-0,1,4,180
-x = 0 y = 1 template_index = 4 template_rotaton = 180
--2,1,7,0
-x = -2 y = 1 template_index = 7 template_rotaton = 0
--4,-1,6,0
-x = -4 y = -1 template_index = 6 template_rotaton = 0
--4,-3,7,0
-x = -4 y = -3 template_index = 7 template_rotaton = 0
-3,-1,7,0
-x = 3 y = -1 template_index = 7 template_rotaton = 0
-5,-5,7,90
-x = 5 y = -5 template_index = 7 template_rotaton = 90
-6,-6,6,270
-x = 6 y = -6 template_index = 6 template_rotaton = 270
-5,-7,7,180
-x = 5 y = -7 template_index = 7 template_rotaton = 180
-4,-8,6,270
-x = 4 y = -8 template_index = 6 template_rotaton = 270
--3,-7,6,0
-x = -3 y = -7 template_index = 6 template_rotaton = 0
--4,-4,6,0
-x = -4 y = -4 template_index = 6 template_rotaton = 0
--2,0,7,180
-x = -2 y = 0 template_index = 7 template_rotaton = 180
--4,0,4,90
-x = -4 y = 0 template_index = 4 template_rotaton = 90
--4,-2,7,180
-x = -4 y = -2 template_index = 7 template_rotaton = 180
-4,-1,5,90
-x = 4 y = -1 template_index = 5 template_rotaton = 90
-6,-5,5,0
-x = 6 y = -5 template_index = 5 template_rotaton = 0
-7,-6,4,180
-x = 7 y = -6 template_index = 4 template_rotaton = 180
-4,-7,7,0
-x = 4 y = -7 template_index = 7 template_rotaton = 0
-5,-8,7,90
-x = 5 y = -8 template_index = 7 template_rotaton = 90
--3,-8,7,180
-x = -3 y = -8 template_index = 7 template_rotaton = 180
--3,0,7,270
-x = -3 y = 0 template_index = 7 template_rotaton = 270
--5,-2,5,90
-x = -5 y = -2 template_index = 5 template_rotaton = 90
-5,-1,6,180
-x = 5 y = -1 template_index = 6 template_rotaton = 180
-6,-4,6,0
-x = 6 y = -4 template_index = 6 template_rotaton = 0
-5,-9,5,0
-x = 5 y = -9 template_index = 5 template_rotaton = 0
--4,-8,4,0
-x = -4 y = -8 template_index = 4 template_rotaton = 0
--3,1,4,90
-x = -3 y = 1 template_index = 4 template_rotaton = 90
--6,-2,7,270
-x = -6 y = -2 template_index = 7 template_rotaton = 270
-5,0,4,90
-x = 5 y = 0 template_index = 4 template_rotaton = 90
-5,-2,7,270
-x = 5 y = -2 template_index = 7 template_rotaton = 270
-6,-3,6,0
-x = 6 y = -3 template_index = 6 template_rotaton = 0
-7,-4,7,90
-x = 7 y = -4 template_index = 7 template_rotaton = 90
-5,-10,8,0
-x = 5 y = -10 template_index = 8 template_rotaton = 0
--6,-1,6,0
-x = -6 y = -1 template_index = 6 template_rotaton = 0
+2,3,4,90
+x = 2 y = 3 template_index = 4 template_rotaton = 90
+3,-2,6,270
+x = 3 y = -2 template_index = 6 template_rotaton = 270
+2,-3,5,0
+x = 2 y = -3 template_index = 5 template_rotaton = 0
+1,-4,7,180
+x = 1 y = -4 template_index = 7 template_rotaton = 180
+0,-3,7,270
+x = 0 y = -3 template_index = 7 template_rotaton = 270
+3,-1,4,90
+x = 3 y = -1 template_index = 4 template_rotaton = 90
+4,-2,6,180
+x = 4 y = -2 template_index = 6 template_rotaton = 180
+2,-4,6,0
+x = 2 y = -4 template_index = 6 template_rotaton = 0
+0,-4,7,0
+x = 0 y = -4 template_index = 7 template_rotaton = 0
+4,-1,4,90
+x = 4 y = -1 template_index = 4 template_rotaton = 90
+4,-3,6,180
+x = 4 y = -3 template_index = 6 template_rotaton = 180
+3,-4,6,90
+x = 3 y = -4 template_index = 6 template_rotaton = 90
+2,-5,4,270
+x = 2 y = -5 template_index = 4 template_rotaton = 270
+0,-5,7,180
+x = 0 y = -5 template_index = 7 template_rotaton = 180
+4,-4,8,0
+x = 4 y = -4 template_index = 8 template_rotaton = 0
+3,-3,4,0
+x = 3 y = -3 template_index = 4 template_rotaton = 0
+3,-5,4,270
+x = 3 y = -5 template_index = 4 template_rotaton = 270
+-1,-5,7,270
+x = -1 y = -5 template_index = 7 template_rotaton = 270
+5,-4,6,90
+x = 5 y = -4 template_index = 6 template_rotaton = 90
+4,-5,4,270
+x = 4 y = -5 template_index = 4 template_rotaton = 270
+-1,-4,4,90
+x = -1 y = -4 template_index = 4 template_rotaton = 90
+6,-4,7,180
+x = 6 y = -4 template_index = 7 template_rotaton = 180
+5,-5,5,0
+x = 5 y = -5 template_index = 5 template_rotaton = 0
+6,-3,6,180
+x = 6 y = -3 template_index = 6 template_rotaton = 180
+5,-6,6,0
+x = 5 y = -6 template_index = 6 template_rotaton = 0
 6,-2,6,180
 x = 6 y = -2 template_index = 6 template_rotaton = 180
-7,-3,7,180
-x = 7 y = -3 template_index = 7 template_rotaton = 180
-7,-5,9,270
-x = 7 y = -5 template_index = 9 template_rotaton = 270
-6,-10,4,180
-x = 6 y = -10 template_index = 4 template_rotaton = 180
-5,-11,4,270
-x = 5 y = -11 template_index = 4 template_rotaton = 270
-4,-10,4,0
-x = 4 y = -10 template_index = 4 template_rotaton = 0
--6,0,4,90
-x = -6 y = 0 template_index = 4 template_rotaton = 90
--5,-1,4,180
-x = -5 y = -1 template_index = 4 template_rotaton = 180
-6,-1,4,90
-x = 6 y = -1 template_index = 4 template_rotaton = 90
-7,-2,4,90
-x = 7 y = -2 template_index = 4 template_rotaton = 90
+5,-3,4,0
+x = 5 y = -3 template_index = 4 template_rotaton = 0
+6,-6,5,90
+x = 6 y = -6 template_index = 5 template_rotaton = 90
+5,-7,4,270
+x = 5 y = -7 template_index = 4 template_rotaton = 270
+6,-1,6,180
+x = 6 y = -1 template_index = 6 template_rotaton = 180
+5,-2,7,270
+x = 5 y = -2 template_index = 7 template_rotaton = 270
+7,-6,8,0
+x = 7 y = -6 template_index = 8 template_rotaton = 0
+6,0,4,90
+x = 6 y = 0 template_index = 4 template_rotaton = 90
+5,-1,7,0
+x = 5 y = -1 template_index = 7 template_rotaton = 0
+7,-5,6,90
+x = 7 y = -5 template_index = 6 template_rotaton = 90
+8,-6,6,90
+x = 8 y = -6 template_index = 6 template_rotaton = 90
+7,-7,6,180
+x = 7 y = -7 template_index = 6 template_rotaton = 180
+8,-5,7,180
+x = 8 y = -5 template_index = 7 template_rotaton = 180
+6,-5,4,0
+x = 6 y = -5 template_index = 4 template_rotaton = 0
+9,-6,6,270
+x = 9 y = -6 template_index = 6 template_rotaton = 270
+8,-7,7,270
+x = 8 y = -7 template_index = 7 template_rotaton = 270
+7,-8,7,270
+x = 7 y = -8 template_index = 7 template_rotaton = 270
+6,-7,7,0
+x = 6 y = -7 template_index = 7 template_rotaton = 0
+8,-4,6,0
+x = 8 y = -4 template_index = 6 template_rotaton = 0
+9,-5,4,90
+x = 9 y = -5 template_index = 4 template_rotaton = 90
+10,-6,4,180
+x = 10 y = -6 template_index = 4 template_rotaton = 180
+9,-7,4,180
+x = 9 y = -7 template_index = 4 template_rotaton = 180
+8,-8,5,90
+x = 8 y = -8 template_index = 5 template_rotaton = 90
+6,-8,5,0
+x = 6 y = -8 template_index = 5 template_rotaton = 0
+8,-3,5,0
+x = 8 y = -3 template_index = 5 template_rotaton = 0
+9,-4,4,180
+x = 9 y = -4 template_index = 4 template_rotaton = 180
+9,-8,5,90
+x = 9 y = -8 template_index = 5 template_rotaton = 90
+6,-9,7,180
+x = 6 y = -9 template_index = 7 template_rotaton = 180
+8,-2,6,0
+x = 8 y = -2 template_index = 6 template_rotaton = 0
+10,-8,7,180
+x = 10 y = -8 template_index = 7 template_rotaton = 180
+5,-9,5,90
+x = 5 y = -9 template_index = 5 template_rotaton = 90
+8,-1,7,90
+x = 8 y = -1 template_index = 7 template_rotaton = 90
+9,-2,4,180
+x = 9 y = -2 template_index = 4 template_rotaton = 180
+10,-7,7,0
+x = 10 y = -7 template_index = 7 template_rotaton = 0
+4,-9,7,270
+x = 4 y = -9 template_index = 7 template_rotaton = 270
+7,-1,7,0
+x = 7 y = -1 template_index = 7 template_rotaton = 0
+11,-7,5,90
+x = 11 y = -7 template_index = 5 template_rotaton = 90
+4,-8,5,0
+x = 4 y = -8 template_index = 5 template_rotaton = 0
+7,-2,4,270
+x = 7 y = -2 template_index = 4 template_rotaton = 270
+12,-7,7,90
+x = 12 y = -7 template_index = 7 template_rotaton = 90
+4,-7,7,90
+x = 4 y = -7 template_index = 7 template_rotaton = 90
+12,-8,6,0
+x = 12 y = -8 template_index = 6 template_rotaton = 0
+3,-7,7,0
+x = 3 y = -7 template_index = 7 template_rotaton = 0
+13,-8,6,90
+x = 13 y = -8 template_index = 6 template_rotaton = 90
+12,-9,5,0
+x = 12 y = -9 template_index = 5 template_rotaton = 0
+3,-8,7,180
+x = 3 y = -8 template_index = 7 template_rotaton = 180
+14,-8,4,180
+x = 14 y = -8 template_index = 4 template_rotaton = 180
+13,-9,6,0
+x = 13 y = -9 template_index = 6 template_rotaton = 0
+12,-10,7,180,1
+x = 12 y = -10 template_index = 7 template_rotaton = 180 KEY
+2,-8,7,0
+x = 2 y = -8 template_index = 7 template_rotaton = 0
+14,-9,6,90
+x = 14 y = -9 template_index = 6 template_rotaton = 90
+13,-10,7,270
+x = 13 y = -10 template_index = 7 template_rotaton = 270
+11,-10,6,0
+x = 11 y = -10 template_index = 6 template_rotaton = 0
+2,-9,6,270
+x = 2 y = -9 template_index = 6 template_rotaton = 270
+15,-9,5,90
+x = 15 y = -9 template_index = 5 template_rotaton = 90
+14,-10,8,0
+x = 14 y = -10 template_index = 8 template_rotaton = 0
+11,-9,5,0
+x = 11 y = -9 template_index = 5 template_rotaton = 0
+11,-11,6,270
+x = 11 y = -11 template_index = 6 template_rotaton = 270
+3,-9,7,90
+x = 3 y = -9 template_index = 7 template_rotaton = 90
+1,-9,6,270
+x = 1 y = -9 template_index = 6 template_rotaton = 270
+16,-9,5,90
+x = 16 y = -9 template_index = 5 template_rotaton = 90
+15,-10,9,180
+x = 15 y = -10 template_index = 9 template_rotaton = 180
+14,-11,4,270
+x = 14 y = -11 template_index = 4 template_rotaton = 270
+11,-8,4,90
+x = 11 y = -8 template_index = 4 template_rotaton = 90
+12,-11,4,180
+x = 12 y = -11 template_index = 4 template_rotaton = 180
+10,-11,4,0
+x = 10 y = -11 template_index = 4 template_rotaton = 0
+3,-10,4,270
+x = 3 y = -10 template_index = 4 template_rotaton = 270
+1,-8,4,90
+x = 1 y = -8 template_index = 4 template_rotaton = 90
+0,-9,4,0
+x = 0 y = -9 template_index = 4 template_rotaton = 0
+17,-9,4,180
+x = 17 y = -9 template_index = 4 template_rotaton = 180
