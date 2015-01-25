@@ -46,8 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AplicationModel.cs" />
+     <Compile Include="Assets\Scripts\Button_new_game.cs" />
+     <Compile Include="Assets\Scripts\Button_pick_size.cs" />
+     <Compile Include="Assets\Scripts\Button_quit.cs" />
+     <Compile Include="Assets\Scripts\Button_return.cs" />
+     <Compile Include="Assets\Scripts\Finish_controller.cs" />
+     <Compile Include="Assets\Scripts\First_Person_Controller.cs" />
+     <Compile Include="Assets\Scripts\FlagRotation.cs" />
      <Compile Include="Assets\Scripts\Key_Controller.cs" />
+     <Compile Include="Assets\Scripts\Loading_controller.cs" />
      <Compile Include="Assets\Scripts\Read_file.cs" />
+     <Compile Include="Assets\Scripts\Show_key.cs" />
+     <Compile Include="Assets\Scripts\Show_key_image.cs" />
+     <Compile Include="Assets\Scripts\Show_score_controller.cs" />
+     <Compile Include="Assets\Scripts\Show_time.cs" />
      <None Include="Assets\Generator\parser.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
