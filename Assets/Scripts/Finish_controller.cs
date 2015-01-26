@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
+using System.IO;
+using System.Text.RegularExpressions;
 using AssemblyCSharp;
 
 public class Finish_controller : MonoBehaviour {
@@ -18,6 +21,7 @@ public class Finish_controller : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
+
 		if (other.tag == "Player") {
 			if(AplicationModel.key ==true){
 				AplicationModel.end_time=Time.fixedTime;
@@ -27,6 +31,9 @@ public class Finish_controller : MonoBehaviour {
 				time = time / 100;
 				AplicationModel.time= time;
 				print(AplicationModel.time);
+
+
+
 				Application.LoadLevel("Save_time");
 				Destroy (gameObject);
 			}

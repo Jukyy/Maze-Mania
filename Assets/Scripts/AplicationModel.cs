@@ -18,6 +18,13 @@ namespace AssemblyCSharp
 		public static float time;
 
 		public static bool key = false;
+		public static bool is_record = false;
+
+		public static int tiny_maze_size = 10;
+		public static int small_maze_size = 50;
+		public static int medium_maze_size = 100;
+		public static int huge_maze_size = 200;
+		public static int dyed_maze_size = 500;
 
 		public AplicationModel ()
 		{
@@ -32,6 +39,7 @@ namespace AssemblyCSharp
 			end_time = 0;
 			time = 0;
 			key = false;
+			is_record = false;
 		}
 	}
 }

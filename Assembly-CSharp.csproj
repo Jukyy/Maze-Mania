@@ -51,11 +51,15 @@
      <Compile Include="Assets\Scripts\Button_pick_size.cs" />
      <Compile Include="Assets\Scripts\Button_quit.cs" />
      <Compile Include="Assets\Scripts\Button_return.cs" />
+     <Compile Include="Assets\Scripts\Button_statistics.cs" />
+     <Compile Include="Assets\Scripts\Check_record.cs" />
      <Compile Include="Assets\Scripts\Finish_controller.cs" />
      <Compile Include="Assets\Scripts\First_Person_Controller.cs" />
      <Compile Include="Assets\Scripts\FlagRotation.cs" />
+     <Compile Include="Assets\Scripts\High_score.cs" />
      <Compile Include="Assets\Scripts\Key_Controller.cs" />
      <Compile Include="Assets\Scripts\Loading_controller.cs" />
+     <Compile Include="Assets\Scripts\New_record.cs" />
      <Compile Include="Assets\Scripts\Read_file.cs" />
      <Compile Include="Assets\Scripts\Show_key.cs" />
      <Compile Include="Assets\Scripts\Show_key_image.cs" />
