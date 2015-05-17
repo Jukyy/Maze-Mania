@@ -25,14 +25,12 @@ public class Finish_controller : MonoBehaviour {
 		if (other.tag == "Player") {
 			if(AplicationModel.key ==true){
 				AplicationModel.end_time=Time.fixedTime;
-				time = AplicationModel.end_time-AplicationModel.begin_time;
+				time = AplicationModel.end_time-AplicationModel.begin_time-AplicationModel.pause_time;
 				i = (int)(time*100);
 				time = (float)i;
 				time = time / 100;
 				AplicationModel.time= time;
 				print(AplicationModel.time);
-
-
 
 				Application.LoadLevel("Save_time");
 				Destroy (gameObject);

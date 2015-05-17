@@ -16,10 +16,12 @@ public class Show_time : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		time = Time.fixedTime - AplicationModel.begin_time;
-		int i = (int)(time * 100);
-		time = (float)i;
-		time = time / 100;
-		show_time.text = "Time: " + time;
+		if (AplicationModel.is_paused == false) {
+			time = Time.fixedTime - AplicationModel.begin_time - AplicationModel.pause_time;
+			int i = (int)(time * 100);
+			time = (float)i;
+			time = time / 100;
+			show_time.text = "Time: " + time;
+		}
 	}
 }

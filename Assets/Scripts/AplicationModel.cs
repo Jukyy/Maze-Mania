@@ -16,30 +16,38 @@ namespace AssemblyCSharp
 		public static float begin_time;
 		public static float end_time;
 		public static float time;
+		public static float pause_time;
 
 		public static bool key = false;
 		public static bool is_record = false;
+		public static bool is_paused = false;
 
-		public static int tiny_maze_size = 10;
-		public static int small_maze_size = 50;
-		public static int medium_maze_size = 100;
-		public static int huge_maze_size = 200;
-		public static int dyed_maze_size = 500;
+		public const int tiny_maze_size = 10;
+		public const int small_maze_size = 50;
+		public const int medium_maze_size = 100;
+		public const int huge_maze_size = 200;
+		public const int dyed_maze_size = 500;
 
 		public AplicationModel ()
 		{
 			begin_time = 0;
 			end_time = 0;
 			time = 0;
+			pause_time = 0;
 			key = false;
+			is_paused = false;
+			is_record = false;
+			maze_size = tiny_maze_size;
 		}
 
 		public static void clearVariables(){
 			begin_time = 0;
 			end_time = 0;
 			time = 0;
+			pause_time = 0;
 			key = false;
 			is_record = false;
+			is_paused = false;
 		}
 	}
 }

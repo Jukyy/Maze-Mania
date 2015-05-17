@@ -15,58 +15,38 @@ public class Check_record : MonoBehaviour {
 		string path = @"Maze Mania_Data\\hs.mhs";
 		string [] temp;
 		float [,] times = new float[5,3];
+		int level;
+		
+		switch (AplicationModel.maze_size) {
+		case AplicationModel.tiny_maze_size: {level=0; break;}
+		case AplicationModel.small_maze_size: {level=1; break;}
+		case AplicationModel.medium_maze_size: {level=2; break;}
+		case AplicationModel.huge_maze_size: {level=3; break;}
+		case AplicationModel.dyed_maze_size: {level=4; break;}
+		default: {level=0; break;}
+		}
+
 		if(File.Exists(path)){
 			string[] high_score = System.IO.File.ReadAllLines(path);
 			System.IO.File.Delete (path);
+
 			for(int i = 0; i < 5; i++){
 				temp= Regex.Split(high_score[i], " ");
 				times[i,0]=(float)Convert.ToDecimal(temp[0]);
 				times[i,1]=(float)Convert.ToDecimal(temp[1]);
 				n[i]=Convert.ToInt32(temp[2]);
 			}
+
 			var fileName = path;
 			var hs = File.CreateText(fileName);
-			
-			if(AplicationModel.maze_size == AplicationModel.tiny_maze_size){
-				if(times[0,0]>time){
-					times[0,0]=time;
-					AplicationModel.is_record=true;
-				}
-				times[0,1]=(time+times[0,1]*n[0])/(n[0]+1);
-				n[0]+=1;
+
+			if(times[level,0]>time || times[level,0]==0){
+				times[level,0]=time;
+				AplicationModel.is_record=true;
 			}
-			else if(AplicationModel.maze_size == AplicationModel.small_maze_size){
-				if(times[1,0]>time){
-					times[1,0]=time;
-					AplicationModel.is_record=true;
-				}
-				times[1,1]=(time+times[1,1]*n[1])/(n[1]+1);
-				n[1]+=1;
-			}
-			else if(AplicationModel.maze_size == AplicationModel.medium_maze_size){
-				if(times[2,0]>time){
-					times[2,0]=time;
-					AplicationModel.is_record=true;
-				}
-				times[2,1]=(time+times[2,1]*n[2])/(n[2]+1);
-				n[2]+=1;
-			}
-			else if(AplicationModel.maze_size == AplicationModel.huge_maze_size){
-				if(times[3,0]>time){
-					times[3,0]=time;
-					AplicationModel.is_record=true;
-				}
-				times[3,1]=(time+times[3,1]*n[3])/(n[3]+1);
-				n[3]+=1;
-			}
-			else if(AplicationModel.maze_size == AplicationModel.dyed_maze_size){
-				if(times[4,0]>time){
-					times[4,0]=time;
-					AplicationModel.is_record=true;
-				}
-				times[4,1]=(time+times[4,1]*n[0])/(n[4]+1);
-				n[4]+=1;
-			}
+			times[level,1]=(time+times[level,1]*n[level])/(n[level]+1);
+			n[level]+=1;
+
 			for(int k = 0; k < 5; k++){
 				hs.WriteLine(times[k,0] + " " + times[k,1] + " " + n[k]);
 			}
@@ -76,36 +56,14 @@ public class Check_record : MonoBehaviour {
 		else{
 			var fileName = path;
 			var hs = File.CreateText(fileName);
-			
-			if(AplicationModel.maze_size == AplicationModel.tiny_maze_size){
-				hs.WriteLine(time + " " + time + " " + 1);
-			}
-			else{
-				hs.WriteLine("0 0 0");
-			}
-			if(AplicationModel.maze_size == AplicationModel.small_maze_size){
-				hs.WriteLine(time + " " + time + " " + 1);
-			}
-			else{
-				hs.WriteLine("0 0 0");
-			}
-			if(AplicationModel.maze_size == AplicationModel.medium_maze_size){
-				hs.WriteLine(time + " " + time + " " + 1);
-			}
-			else{
-				hs.WriteLine("0 0 0");
-			}
-			if(AplicationModel.maze_size == AplicationModel.huge_maze_size){
-				hs.WriteLine(time + " " + time + " " + 1);
-			}
-			else{
-				hs.WriteLine("0 0 0");
-			}
-			if(AplicationModel.maze_size == AplicationModel.dyed_maze_size){
-				hs.WriteLine(time + " " + time + " " + 1);
-			}
-			else{
-				hs.WriteLine("0 0 0");
+
+			for(int k = 0; k < 5; k++){
+				if(k==level){
+					hs.WriteLine(time + " " + time + " " + 1);
+				}
+				else{
+					hs.WriteLine("0 0 0");
+				}
 			}
 
 			hs.Close();
